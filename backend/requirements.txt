@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+transformers
+torch
+youtube-transcript-api
+nltk
+scipy
+scikit-learn
+aiohttp
+tweepy
+facebook-sdk
+linkedin-api
+python-dotenv
