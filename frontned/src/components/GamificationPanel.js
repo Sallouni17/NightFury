@@ -454,7 +454,7 @@ const GamificationPanel = ({ darkMode }) => {
             <div className={`px-3 py-1 rounded-full text-sm font-medium ${
               darkMode ? 'bg-purple-600 text-white' : 'bg-purple-100 text-purple-800'
             }`}>
-              {profile.xp.toLocaleString()} XP
+               {profile?.xp?.toLocaleString() || '0'} XP
             </div>
           </div>
         )}
